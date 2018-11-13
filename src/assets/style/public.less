@@ -1,0 +1,19 @@
+// 样式重置
+@import "reset.less";
+// 变量
+@import "vars.less";
+// 字体图标
+@import "./iconfont.less";
+// 重置滚动条的样式
+@import "./beautifyScrollBar";
+//修改mint-ui的样式
+@import "./mint.less";
+body{
+  -webkit-overflow-scrolling: touch;
+}
+.fade-enter-active, .fade-leave-active{
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to{
+  opacity: 0;
+}

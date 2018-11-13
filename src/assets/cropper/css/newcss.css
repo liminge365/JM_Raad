@@ -1,0 +1,162 @@
+
+      .dialog{
+        display: none;
+        background: rgba(12, 15, 17, .2);
+        width: 100%;
+        height: 100%;
+        z-index: 9990;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        right: 0;
+      }
+      .htmleaf-container{
+        z-index: 9999;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .wenzi{
+        text-align: left;
+        color: #969696;
+        margin-left: 20px;
+        margin-top: 18px;
+        margin-left: 18px;
+        margin-bottom: 24px;
+        font-size: 12px;
+        
+      }
+      .icon-guanbi::before{
+        display: block;
+        position: absolute;
+        right: 17px;
+        top: 20px;
+      }
+      .sr-only{
+        display: none;
+      }
+      /* 上传图片按钮 */
+      .btn-upload{
+        width: 78px;
+        height: 30px;
+        padding: 4px 10px;
+        border:1px solid #F6F6F6;
+        border-radius: 3px;
+        color: #2AB3E7!important;
+        background-color: #FCFCFC!important;
+        position: relative;
+        left: -78px;
+        top: -8px;
+        font-size: 12px;
+      }
+      .btn-upload:hover{
+        border:1px solid #F6F6F6;
+      }
+      .box{
+        width: 225px;
+        margin: 0 auto;
+        margin-top: 7px;
+      }
+      /* 头像 */
+
+      .imgbox{
+        background: #f00;
+        width: 74px;
+        height: 74px;
+      }
+      .modal-body{
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        position: relative;
+        top: -75px;
+      }
+      .modal-body canvas{
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+      }
+
+
+      /* 旋转按钮 */
+      
+      .bigbtn{
+        background: #2AB3E7;
+        transform: scale(.7);
+        color: #fff;
+        border-radius: 100%;
+        border: none;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+      }
+      .smallbtn{
+        margin-right: 20px;
+      }
+      .rightbtn{
+        background: none;
+        border: none;
+        color: #2AB3E7;
+        margin-left: 7px;
+      }
+      .right-i i::before{
+        display: block;
+        transform:rotateY(180deg);
+      }
+      .btn-group button:nth-child(1){
+       position: relative;
+       left: -30px;
+      }
+      .btn-group button:nth-child(2){
+       position: relative;
+       left: -20px;
+      }
+      .btn-group button:nth-child(3){
+       position: relative;
+       left: 12px;
+      }
+      .btn-group button:nth-child(4){
+       position: relative;
+       left: 22px;
+      }
+      /* 确认取消 */
+      .btnbox{
+        width: 225px;
+        height: 37px;
+        margin: 10px auto 18px;
+      }
+      .btnbox button{
+        width: 100px;
+        height: 37px;
+        font-size: 12px;
+        background: #2AB3E7;
+        border: none;
+        color: #fff;
+        border-radius: 3px;
+        border: 1px solid #fff;
+        outline:none;
+      }
+      .showimg{
+        padding: 0!important;
+      }
+      .showimg span{
+        display: block;
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+      }
+      .nobtn{
+        background: #fff!important;
+        color: #AFAFAF!important;
+        border: 1px solid #AFAFAF!important; 
+        margin-left: 21px;
+      }
+      .btnbox button:hover{
+        background: #2AB3E7!important;
+        border: none!important;
+        color: #fff!important;
+        border: 1px solid #fff!important;
+      }

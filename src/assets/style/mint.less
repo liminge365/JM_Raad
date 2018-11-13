@@ -1,0 +1,146 @@
+//请求头的样式
+.mint-header {
+    background-color: @primary-color!important;
+    padding: 0 20px;
+    .is-left {
+        img {
+            height: .26rem;
+        }
+        i{
+            cursor: pointer;
+        }
+    }
+    .mint-header-title {
+        font-size: .16rem;
+    }
+    .is-right {
+        i {
+            font-size: .2rem;
+            position: relative;
+            cursor: pointer;
+            b {
+                position: absolute;
+                top: 2px;
+                right: 3px;
+                width: 5px;
+                height: 5px;
+                background: red;
+                border-radius: 50%;
+                display: block;
+            }
+        }
+        span{
+            font-size: .16rem;
+        }
+    }
+}
+
+//修改日期插件的样式
+.layui-laydate-content {
+    padding: 0;
+}
+.laydate-year-list {
+    li {
+        margin: 1px 0;
+    }
+}
+.laydate-month-list {
+    li {
+        margin: 15px 0;
+    }
+}
+.laydate-time-list {
+    li {
+        width: 50%;
+        &:nth-child(2){
+            ol{
+                li{
+                    display: none;
+                    &:nth-child(1),&:nth-child(31){
+                        display: block;
+                    }
+                }
+            }
+        }
+        &:nth-child(3) {
+            display: none;
+        }
+    }
+    ol {
+        height: 90%;
+        overflow-y: auto;
+        li {
+            width: 100%;
+            padding-left: 0;
+            text-align: center;
+            box-sizing: border-box;
+        }
+    }
+}
+.laydate-footer-btns {
+    display: none;
+}
+//王亮如
+//账号组管理由底出弹窗
+.mint-actionsheet{
+    background: #fff!important;
+    z-index: 9999!important;
+    // position: absolute!important;
+    ul{
+        padding-top: .2rem;
+        background: #fff;
+        li:nth-child(1){
+            width: 100%;
+            background: #fff;
+            margin-bottom: 0;
+            font-size: 16px;
+        }
+        li{
+            width: 80%;
+            line-height: .4rem;
+            height: .4rem;
+            color:  #52575D;
+            margin: auto;
+            background: #EBF0F3;
+            margin-bottom: .1rem;
+            font-size: 14px;
+            border: none;
+        }
+    }
+    .mint-actionsheet-button{
+        width: 80%;
+        line-height: .4rem;
+        height: .4rem;
+        color:  #52575D;
+        margin: auto;
+        margin-top: .3rem;
+        background: #EBF0F3;
+        margin-bottom: .1rem;
+        font-size: 14px;
+        border: none;
+    }
+}
+.v-modal{
+    // position: absolute!important;
+}
+//订单流水tab
+.mint-navbar{
+    padding: .1rem 0;
+    box-sizing: border-box;
+    background: #fff;
+    -webkit-box-shadow: 0 0 2px 1px #EAEEF1;
+    box-shadow: 0 0 2px 1px #EAEEF1;
+    a:nth-child(1), a:nth-child(2){
+        border-right: 1px solid #EAEEF1;
+    }
+    .mint-tab-item{
+        padding: 9px 0;
+    }
+    .is-selected{
+        border-bottom: none!important;
+        color: #29b1e6!important;
+    }
+}
+.mint-tab-container{
+    overflow-y: scroll;
+}
